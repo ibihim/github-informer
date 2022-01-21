@@ -2,15 +2,17 @@
 
 ## What
 
-Returns information at your will. Should enable you turn off all notifications, without loosing important notices.
+Returns information at your will. Should enable you to turn off all notifications, without loosing important notices.
 
-Format should be `yaml`.
+Format should be `yaml`. *Should* is used as there are no `tests`.
 
 ### Github
 
 Queries for `user`, `repo` and `kind`. By default the search is specified to type `open` and `sort:updated-desc` (showing the newest first).
 
 In case you want to `query` something completely differnt, use `query`.
+
+Lets pretend we name the `BIN=`[`igith`](https://www.dict.cc/?s=Igitt%21):
 
 ```bash
 Usage of igith:
@@ -35,7 +37,7 @@ Jobs that demand a high level of focus are in ever bigger demand.
 
 This is a huge conflict.
 
-## Example
+## Example Usage
 
 ```bash
 # Check for updates on co-workers aka dream team.
