@@ -4,6 +4,10 @@
 *.dll
 *.so
 *.dylib
+bin
+
+# IDE data, not really using Goland.
+.idea
 
 # Test binary, built with `go test -c`
 *.test
