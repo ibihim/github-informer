@@ -1,4 +1,4 @@
-BIN := bin/igith
+BIN := bin/igit
 MAIN := cmd/github/main.go
 INSTALL_TO := $(GOBIN)
 

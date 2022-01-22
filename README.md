@@ -12,10 +12,10 @@ Queries for `user`, `repo` and `kind`. By default the search is specified to typ
 
 In case you want to `query` something completely differnt, use `query`.
 
-Lets pretend we name the `BIN=`[`igith`](https://www.dict.cc/?s=Igitt%21):
+Lets pretend we name the `BIN=`[`igit`](https://www.dict.cc/?s=Igitt%21):
 
 ```bash
-Usage of igith:
+Usage of igit:
   -q string
         query by hand, if set ignores all other flags
   -r string
@@ -42,6 +42,6 @@ This is a huge conflict.
 ```bash
 # Check for updates on co-workers aka dream team.
 for user in "s-urbaniak" "stlaz" "slaskawi" "ibihim" "emilym1"; do
-    igith -u "$user"
+    igit -u "$user"
 done
 ```
